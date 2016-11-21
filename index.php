@@ -1,2 +1,2 @@
 <?php
-echo'it works jarku node test';
+echo'it works jarku node test jako';
