@@ -1,5 +1,2 @@
 <?php
-echo 'jarek<br />';
-echo'adfsdfs<br />';
-echo'it works jarku node test2 jako<br />';
-echo'anicka jede';
+include_once('functions/service.php');
