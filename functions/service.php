@@ -3,16 +3,16 @@ class Service
 {
 	public function __construct($instance = array())
 	{
-		$this->instance = $instance;
-		$this->run();
+		if(empty($instance)){
+			$this->instance = ['music'];
+		}
+		else{
+			$this->instance = $instance;
+		}
 	}
 
 	public function run()
 	{
-		echo'<pre>';
-		print_r($this->instance);
-		echo'</pre>';
+		return $this->instance;
 	}
 }
-
-new Service(['jarek', 'anicka', 'petra']);
