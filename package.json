@@ -1,0 +1,27 @@
+{
+  "name": "node-jarek",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "server.js",
+  "scripts": {
+    "test": "node",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarektest/node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "jarek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarektest/node/issues"
+  },
+  "homepage": "https://github.com/jarektest/node#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11"
+  }
+}
