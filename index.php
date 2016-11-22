@@ -1,2 +1,2 @@
 <?php
-echo'it works jarku node';
+include_once('functions.php');
