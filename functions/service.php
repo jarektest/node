@@ -15,4 +15,4 @@ class Service
 	}
 }
 
-new Service(['jarek', 'anicka', 'petra']);
+new Service(['jarek', 'anicka', 'petra', 'parek']);
